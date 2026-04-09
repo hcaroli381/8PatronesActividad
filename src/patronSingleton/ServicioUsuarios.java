@@ -1,4 +1,4 @@
-package patrones;
+package patronSingleton;
 
 public class ServicioUsuarios {
 	Logger logger = Logger.getInstance();

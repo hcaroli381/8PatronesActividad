@@ -1,4 +1,4 @@
-package patrones;
+package patronSingleton;
 
 import java.util.ArrayList;
 import java.util.List;
