@@ -197,13 +197,10 @@ public class ConsoleInput {
 		do {
 			try {
 				s = keyboard.nextLine();
-				if (s.trim().isEmpty()) {
-					System.err.println("Error: La cadena no puede estar vacía.");
-				} else {
-					hayError = false;
-				}
+				hayError = false;
 			} catch (Exception e) {
 				System.err.println("Error: Introduce una cadena válida.");
+				hayError = true;
 				cleanInput();
 			}
 		} while (hayError);
